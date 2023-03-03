@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>TravelAgency: Login</title>
     <meta charset="utf-8">
-    <link href="../styles/login.css" rel="stylesheet">
+    <link href="../styles/login_registration.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -28,7 +28,7 @@
         <div class="field">
             <input type="submit" value="Login">
         </div>
-        <div class="signup-link">Not a member? <a href="#">Create an account</a></div>
+        <div class="signup-link">Not a member? <a href="../jsp/registration.jsp">Create an account</a></div>
     </form>
 </div>
 </body>

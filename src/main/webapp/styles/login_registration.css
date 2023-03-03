@@ -11,7 +11,7 @@ html,body{
     width: 100%;
     place-items: center;
     background: #f2f2f2;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    /*background: linear-gradient(-135deg, #ffc6f6, #9ca7ff);*/
 }
 ::selection{
     background: #4158d0;
@@ -21,7 +21,7 @@ html,body{
     width: 380px;
     background: #fff;
     border-radius: 15px;
-    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.1);
 }
 .wrapper .title{
     font-size: 35px;
@@ -31,7 +31,7 @@ html,body{
     color: #fff;
     user-select: none;
     border-radius: 15px 15px 0 0;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #be82ff, #4158d0);
 }
 .wrapper form{
     padding: 10px 30px 50px 30px;
@@ -69,7 +69,7 @@ form .field input:valid{
 }
 form .field input:focus ~ label,
 form .field input:valid ~ label{
-    top: 0%;
+    top: 0;
     font-size: 16px;
     color: #4158d0;
     background: #fff;
@@ -91,7 +91,7 @@ form .field input[type="submit"]{
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #be82ff, #4158d0);
     transition: all 0.3s ease;
 }
 form .field input[type="submit"]:active{
@@ -102,12 +102,12 @@ form .signup-link{
     margin-top: 20px;
     text-align: center;
 }
-form .pass-link a,
+
 form .signup-link a{
     color: #4158d0;
     text-decoration: none;
 }
-form .pass-link a:hover,
+
 form .signup-link a:hover{
     text-decoration: underline;
 }
