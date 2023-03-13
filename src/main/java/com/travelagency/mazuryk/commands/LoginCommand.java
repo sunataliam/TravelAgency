@@ -1,5 +1,7 @@
 package com.travelagency.mazuryk.commands;
 
+import com.travelagency.mazuryk.db.dao.UserDAO;
+import com.travelagency.mazuryk.db.dao.impl.UserDAOImpl;
 import com.travelagency.mazuryk.db.entity.User;
 import com.travelagency.mazuryk.db.enums.Target;
 import com.travelagency.mazuryk.db.service.UserService;

@@ -2,7 +2,7 @@ package com.travelagency.mazuryk.db.entity;
 
 import com.travelagency.mazuryk.db.enums.UserRole;
 
-import java.util.Date;
+import java.sql.*;
 import java.util.Objects;
 
 public class User {

@@ -3,7 +3,7 @@ package com.travelagency.mazuryk.db.query;
 public abstract class UserQuery {
 
     public static final String INSERT_USER = "INSERT INTO user (fk_role,name,surname,email,password,date_birth," +
-            "phone_number,blocked) VALUES (?,?,?,?,?,?,?,?,?)";
+            "phone_number,blocked) VALUES (?,?,?,?,?,?,?,?)";
     public static final String SELECT_ALL_USERS = "SELECT * FROM user";
     public static final String SELECT_USER_BY_ID = "SELECT * FROM user WHERE id = ?";
     public static final String SELECT_USER_BY_EMAIL = "SELECT * FROM user WHERE email = ?";
